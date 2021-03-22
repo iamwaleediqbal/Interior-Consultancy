@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>INTERIOR CONSULTANCY</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="devchallenges.png" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Monteserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=PT+Serif:wght@700&family=Poppins&display=swap" rel="stylesheet">	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body style = "background-color: #181719;">
+	<div class = "Header">
+		<nav class="navbar navbar-light bg-light nav">
+			<div class = "logo" id = "logo">
+				<form class="form-inline"id="form-inline" >
+					<button onclick="window.location.href='index.html';" class="btn btn-outline-success" style = "border: 1px solid #FFFFFF; box-sizing: border-box;"type="button">THIS INTERIOR</button>
+				</form>
+			</div>
+			
+			<div class="nav-btn">
+				<button style = "background-color:#181719; border:none; " onclick = "navmenuopen();" class="open" id="open"><span style = "position:relative;right:70%;"class = "ic material-icons">menu</span></button>
+				<button style = " border:none; " class="close" id="close"onclick = "navmenuclose();"><span style = " background-color:#181719; color:white;position:relative;right:70%; bottom:40vh; "class = "ic material-icons">close</span></button>
+			</div>
+			
+			<ul class = "nav-list" id = "nav-list" style = "display:none;">
+				<li><a class = "nav-item active" style = "border-bottom:2px solid white;"href = "index.html">Home</a></li>
+				<li><a class = "nav-item " href = "#">Collection</a></li>
+				<li><a class = "nav-item"href = "#">About</a></li>
+				<li><a class = "nav-item"href = "#">Contact</a></li>	
+			</ul>
+			<ul class = "nav-links" id = "nav-links">
+				<li><a class = "nav-item active" style = "border-bottom:2px solid white; "href = "index.html">Home</a></li>
+				<li><a class = "nav-item " href = "#">Collection</a></li>
+				<li><a class = "nav-item"href = "#">About</a></li>
+				<li><a class = "nav-item"href = "#">Contact</a>	</li>
+			</ul>
+		</nav>
+	</div>
+	<div class = "container" id = "container">
+		<div class = "row">
+			<div class = "TextArea col-md-5">
+				<h1>Modern interior</h1>
+				<p>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+				<Button class = "btnrdmr">Read More <span class=" ic material-icons">arrow_right_alt</span></Button>
+			</div>
+			<div class = " col-lg-4">
+				<img class = "ImageArea"src = "photo1.png" height = 555 width = 737></img>
+					<div class=" card" style="width:100%">
+						<div class="w3-container">
+							<img src="photo2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right fc" style="width:70px">
+							<p  class = "Name"style = "margin-top:1%;">Aliza Webber</p><p class = "prof"style = "margin-top:-10%; color: #828282;">Interior Designer</p>
+							<p class = "content">Designed in 2020 by Aliza Webber</p><br>
+						</div>
+						
+					</div>
+				
+			</div>
+			
+		</div>
+	</div>
+	<footer id = "footer"><p>Created By <a class = "id" href = "https://github.com/iamwaleediqbal">iamwaleediqbal </a>- devChallenges.io</p></footer>
+
+</body>
+<script src = "index.js"></script>
+</html>
